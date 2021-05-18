@@ -7,26 +7,38 @@
     <title>Banana speak</title>
     <style>
         textarea{
-            padding:2rem;
+            padding:1rem;
             height: 5rem;
-            width: 50rem;
+            width: 22rem;
             display:block;
             margin: 1rem;
 
         }
 
         button{
-            padding:2rem;
+            padding:1rem;
             font-size: large;
             margin:1rem;
+            background-color: #FBBF24;
 
+        }
+
+        #output{
+            border: 1px solid;
+            height: 4rem;
+            width:22rem;
+            margin:1rem;
+            padding: 1rem;
         }
     </style>
 </head>
 <body>
     <h1>Talk bananaaa</h1>
-    <textarea></textarea>
-    <button id= "btn-translate">Translate</button>
+    <textarea placeholder="Put your text which you want to convert in banana language." id="txt-input"></textarea>
+    <button id= "btn-translate">Translate To Banana</button>
+     
+    <div style="font-size: larger;">Translation will come here. 👇</div>
+    <div id="output"></div>
 
     <script src="app.js" type="text/javascript"></script>
     
