@@ -2,6 +2,8 @@ var btnTranslate= document.querySelector("#btn-translate");
 var textInput= document.querySelector("#txt-input");
 var outputDiv= document.querySelector("#output"); 
 
+// (mock url for testing) var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+
 var url= "https://api.funtranslations.com/translate/minion.json"
 
 function translationUrl(text){
